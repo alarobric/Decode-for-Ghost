@@ -88,6 +88,7 @@
 		
 		.site-header {
 			margin-top: 0;
+			padding-top: 15px;
 		}
 	}
 	
@@ -153,7 +154,7 @@
 	font-size: 1.75em;
 	font-weight: normal;
 	letter-spacing: -1px;
-	margin: 1.5% auto 0;
+	margin: 1.5% auto;
 }
 
 .blog-title a {
