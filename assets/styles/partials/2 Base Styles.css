@@ -38,16 +38,16 @@ h4, h5, h6 {
 
 a {
 	transition: color ease-out 0.4s;
-	color: var(--accent-color);
+	color: var(--secondary-text-color);
 	text-decoration: none;
 
 	&:hover {
-		 color: #364A50;
+		 color: var(--link-hover);
 	}
 	
 	&:active,
 	&:focus {
-		 color: #364A50;
+		 color: var(--link-hover);
 		 outline: none;
 	}
 }
@@ -60,13 +60,13 @@ a {
 	border-bottom: 1px solid rgba(127,127,127,0);
 		
 	&:hover {
-		color: var(--accent-color);
+		color: var(--link-hover);
 		border-bottom-color: var(--accent-color);
 	}
 	
 	&:active,
 	&:focus {
-		color: var(--secondary-accent-color);
+		color: var(--link-hover);
 		border-bottom-color: var(--secondary-accent-color);
 	}
 }
