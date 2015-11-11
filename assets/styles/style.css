@@ -575,11 +575,11 @@
 }
 
 	.pagination a:hover {
-		color: var(--accent-color);
+		color: var(--link-hover);
 	}
 	
 	.pagination a:active {
-		color: var(--secondary-accent-color);
+		color: var(--link-hover);
 	}
 
 /* Push the previous/next links out to the left/right */
@@ -632,7 +632,7 @@
 }
 
 	.site-footer a:hover {
-		 color: var(--accent-color);
+		 color: var(--link-hover);
 	}
 
 .poweredby .icon-ghost {
