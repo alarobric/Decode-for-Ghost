@@ -42,12 +42,12 @@ a {
 	text-decoration: none;
 
 	&:hover {
-		 color: var(--accent-color);
+		 color: #364A50;
 	}
 	
 	&:active,
 	&:focus {
-		 color: var(--secondary-accent-color);
+		 color: #364A50;
 		 outline: none;
 	}
 }
