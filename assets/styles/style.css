@@ -655,7 +655,7 @@
 	text-align: center;
 	line-height: 2.4rem;
 	border-radius: 50%;
-	background-color: var(--accent-color);
+	background-color: var(--link-hover);
 	transition: background-color 0.5s;
 
 	/* The RSS icon, inserted via icon font */
@@ -669,11 +669,11 @@
 	}
 
 	&:hover {
-		background-color: var(--secondary-accent-color);
+		background-color: var(--accent-color);
 	}
 	
 	&:active {
-		background-color: var(--secondary-text-color);
+		background-color: var(--accent-color);
 	}
 }
 
